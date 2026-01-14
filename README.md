@@ -42,6 +42,7 @@ python -m build_pyoptsparse.snopt_module /path/to/snopt/fortran/src
 you may encounter many `multiple definition of <subroutine>` errors that look like
 
 ```
+snopt.cpython-314-x86_64-linux-gnu.so.p/_tmp_snopt-build-a8lmuwuo_source_sn27lu90.f.o: In function `lu1fac_':
 /tmp/snopt-build-a8lmuwuo/source/sn27lu90.f:59: multiple definition of `lu1fac_'
 snopt.cpython-314-x86_64-linux-gnu.so.p/_tmp_snopt-build-a8lmuwuo_source_sn27lu.f.o:/tmp/snopt-build-a8lmuwuo/source/sn27lu.f:89: first defined here
 snopt.cpython-314-x86_64-linux-gnu.so.p/_tmp_snopt-build-a8lmuwuo_source_sn27lu90.f.o: In function `lu1mcp_':
